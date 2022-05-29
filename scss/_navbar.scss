@@ -1,0 +1,24 @@
+.colorTexto {
+
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: $espaciado;
+        &:hover {
+
+            color: #F75C03;
+        }
+}
+
+.colorNav {
+
+    background-color: black;
+    text-align: center;
+   
+}
+
+.navbar-toggler {
+    background-color: white;
+    border-color: $colorNegro;
+}
+

@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap");
+.colorTexto {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 20px; }
+  .colorTexto:hover {
+    color: #F75C03; }
+
+.colorNav {
+  background-color: black;
+  text-align: center; }
+
+.navbar-toggler {
+  background-color: white;
+  border-color: black; }
+
+.logo {
+  width: 80px; }
+  .logo:hover {
+    scale: 1.2;
+    transition: 1.5s; }
+
+.imagenCentral {
+  background-image: url(../imagenes/remeras-tienda.jpg);
+  height: calc(100vh - 100px); }
+
+.tamañoMini {
+  width: 300px;
+  padding: 30px; }
+  .tamañoMini:hover {
+    scale: 1.1;
+    transition: 1.3s; }
+
+.miniGaleria {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-top: 50px; }
+
+.ancla {
+  border: 1px white solid;
+  border-radius: 20px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black;
+  font-family: 'Roboto Flex', sans-serif; }
+
+/* orden de los iconos del footer */
+.cambioRedes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.imgFooter {
+  width: 30px;
+  margin: 15px; }
+  .imgFooter:hover {
+    scale: 1.1; }
+
+#footer {
+  padding: 50px; }
+
+.anclaFooter {
+  text-decoration: none; }
+
+.flex {
+  display: flex;
+  flex-direction: row; }
+
+.flexTexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white; }
+
+.mapa {
+  padding: 20px; }
+
+.video {
+  padding: 50px; }
+
+.ordenTienda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px white solid;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: white; }
+
+.tamañoImagen {
+  width: 300px;
+  padding: 30px; }
+  .tamañoImagen:hover {
+    transform: scale(1.1);
+    transition: 1.2s; }
+
+p {
+  padding: 30px;
+  color: #F75C03; }
+
+.cambioTienda {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+/* estilo de los botones */
+#modificadorBoton {
+  border: 1px solid #FFC800;
+  /*anchura, estilo y color borde*/
+  padding: 10px;
+  /*espacio alrededor texto*/
+  background-color: #FFC800;
+  /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  text-transform: uppercase;
+  /*capitalización texto*/
+  border-radius: 50px; }

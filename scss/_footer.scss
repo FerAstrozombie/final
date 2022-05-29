@@ -1,0 +1,26 @@
+
+
+/* orden de los iconos del footer */
+
+.cambioRedes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+  
+.imgFooter {
+    width: 30px;
+    margin: 15px;
+        &:hover {
+            scale: $escalar;
+        }
+  }
+  
+#footer {
+    padding: 50px;
+}
+  
+.anclaFooter {
+
+    text-decoration: none;
+}
