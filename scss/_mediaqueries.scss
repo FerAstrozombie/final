@@ -1,0 +1,14 @@
+/* media querie para el form */
+  @media (max-width: 500px) {
+    form {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 700px){
+
+    .flex {
+
+      flex-wrap: wrap;
+    }
+  }

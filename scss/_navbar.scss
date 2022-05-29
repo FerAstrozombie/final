@@ -1,3 +1,4 @@
+/*agregando estilos al navBar*/
 .colorTexto {
 
     color: white;
@@ -22,3 +23,13 @@
     border-color: $colorNegro;
 }
 
+/*Posicionamiento estatico del navBar de la tienda*/
+.headerTienda {
+    position: sticky;
+    top: 0;
+  }
+
+.zindex {
+
+    z-index: 300;
+}

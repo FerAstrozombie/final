@@ -1,0 +1,49 @@
+/* estilos del formulario de contacto */
+form {
+    width: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+  }
+  
+  textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+
+  #boton {
+    background: #31384a;
+    color: #fff;
+    padding: 20px;
+  
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .contacto {
+
+    background-image: url(../imagenes/email-messages-network-circuit-board-link-connection-technology.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    
+  }
