@@ -1,7 +1,7 @@
 /* media querie para el form */
   @media (max-width: 500px) {
     form {
-      width: 100%;
+      width: 75%;
     }
   }
 
@@ -11,4 +11,17 @@
 
       flex-wrap: wrap;
     }
+
+    .miniGaleria {
+
+      gap: 10px;
+
+    }
+
+    .imagenCentral {
+
+      display: none;
+    }
+
+           
   }
