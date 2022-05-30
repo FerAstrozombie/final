@@ -48,7 +48,7 @@
   flex-flow: row wrap;
   justify-content: space-around;
   padding-top: 20px;
-  padding-top: 50px; }
+  padding-top: 20px; }
 
 .ancla {
   border: 1px white solid;
@@ -63,6 +63,16 @@
 body {
   background-color: black;
   font-family: 'Roboto Flex', sans-serif; }
+
+#encabezado {
+  text-align: center;
+  color: #F75C03;
+  margin: 30px; }
+
+#encabezadoContacto {
+  text-align: center;
+  color: #0075A2;
+  margin: 30px; }
 
 /* orden de los iconos del footer */
 .cambioRedes {
