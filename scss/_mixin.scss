@@ -1,0 +1,12 @@
+@mixin parrafos {
+
+    font-size: 'Roboto Flex', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.parrafosEstilo {
+
+    @include parrafos;
+}

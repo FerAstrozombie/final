@@ -1,6 +1,14 @@
 @charset "UTF-8";
-/*agregando estilos al navBar*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap");
+.parrafosEstilo {
+  font-size: 'Roboto Flex', sans-serif;
+  font-size: 1rem;
+  text-align: center; }
+
+.bodyEstilo {
+  background-color: black; }
+
+/*agregando estilos al navBar*/
 .colorTexto {
   color: white;
   font-size: 1.3rem;

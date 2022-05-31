@@ -1,0 +1,8 @@
+$estilos: (color: black , fuente: bold , margen: 3px #F75C03) ;
+
+.bodyEstilo {
+
+    background-color: map-get($estilos , color );
+        
+}
+
