@@ -5,11 +5,17 @@
     }
   }
 
-  @media (min-width: 300px) and (max-width: 700px){
+  @media (min-width: 300px) and (max-width:500px){
 
     .flex {
 
       flex-wrap: wrap;
+             
+    }
+
+    .mapaPequeño {
+
+      width: auto;
     }
 
     .miniGaleria {
@@ -24,4 +30,15 @@
     }
 
            
+  }
+
+  @media (min-width: 501px) and (max-width:900px) {
+
+    .flex {
+
+      flex-wrap: wrap;
+             
+    }
+
+    
   }

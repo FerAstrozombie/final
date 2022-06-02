@@ -106,7 +106,8 @@ body {
 /*Ordenando texto y mapa con flexbox*/
 .flex {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex: 50%; }
 
 .flexTexto {
   display: flex;
@@ -211,13 +212,19 @@ textarea {
   form {
     width: 75%; } }
 
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 500px) {
   .flex {
     flex-wrap: wrap; }
+  .mapaPequeño {
+    width: auto; }
   .miniGaleria {
     gap: 10px; }
   .imagenCentral {
     display: none; } }
+
+@media (min-width: 501px) and (max-width: 900px) {
+  .flex {
+    flex-wrap: wrap; } }
 
 /*Posicionamiento estatico del icono de whatsaap*/
 .icono {
