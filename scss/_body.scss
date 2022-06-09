@@ -18,12 +18,16 @@ body {
     text-align: center;
     color: #F75C03;
     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
 #encabezadoContacto {
     text-align: center;
-    color: #0075A2;
+    color: #F75C03;
     margin: 30px;
     
 }

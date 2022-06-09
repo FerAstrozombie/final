@@ -1,21 +1,17 @@
 /* media querie para el form */
-  @media (max-width: 500px) {
+
+@media (max-width: 500px) {
     form {
       width: 75%;
     }
-  }
+}
 
-  @media (min-width: 300px) and (max-width:500px){
+@media (min-width: 300px) and (max-width:500px){
 
     .flex {
 
       flex-wrap: wrap;
              
-    }
-
-    .mapaPequeño {
-
-      width: auto;
     }
 
     .miniGaleria {
@@ -24,15 +20,16 @@
 
     }
 
-    .imagenCentral {
+   
+    .iconosContacto {
 
       display: none;
     }
 
            
-  }
+}
 
-  @media (min-width: 501px) and (max-width:900px) {
+@media (min-width: 501px) and (max-width:900px) {
 
     .flex {
 
@@ -40,5 +37,20 @@
              
     }
 
+    .miniGaleria {
+
+      gap: 10px;
+
+    }
     
+}
+
+@media (min-width: 901px) and (max-width:1400px) {
+
+  .miniGaleria {
+
+    gap: 10px;
+
   }
+  
+}
