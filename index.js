@@ -1,39 +1,3 @@
-//Precio de la remera con iva del 21% y cupon de descuento
-
-const suma  = (a,b) => a + b;
-const resta = (a,b) => a - b;
-const iva   = x => x * 0.21;
-
-let precioProducto = parseInt(prompt("Ingrese el precio de la remera elegida"));
-let descuento = parseInt(prompt("Ingrese valor del cupon de descuento adquirido")); 
-
-let nuevoPrecio = resta(suma(precioProducto, iva(precioProducto)), descuento);
-
-alert(nuevoPrecio); 
-
-//Calculadora de envios
-
-function calculadoraEnvios(zona){
-
-    switch(zona){
-
-      case "zona norte":
-        return "$500";      
-      case "zona sur":
-        return "$400";
-      case "zona oeste":
-        return "$450";
-      case "zona este":
-        return "$900";
-        
-      default:
-        return "Zona no incluida para envios";
-    }
-
-}
-let zona = prompt("Ingrese zona de residencia (zona oeste, norte, sur, este)").toLowerCase();
-alert(calculadoraEnvios(zona)); 
-
 class Producto{
   constructor(img, nombre, precio){
       this.img = img;
@@ -74,3 +38,52 @@ for(const item of productos){
 }
 
 console.log(productos);
+
+//Precio de la remera con iva del 21% y cupon de descuento
+
+const suma  = (a,b) => a + b;
+const resta = (a,b) => a - b;
+const iva   = x => x * 0.21;
+
+
+let precioProducto = parseInt(prompt("Ingrese el precio de la remera elegida"));
+let descuento = parseInt(prompt("Ingrese valor del cupon de descuento adquirido")); 
+
+let nuevoPrecio = resta(suma(precioProducto, iva(precioProducto)), descuento);
+
+alert(`El precio con I.V.A. y cupon de descuento es de $${nuevoPrecio}`); 
+
+//Calculadora de envios
+
+function calculadoraEnvios(zona){
+
+  if(zona === "zona norte"){
+    envio = 500;
+  }
+  
+  if(zona === "zona oeste"){
+    envio = 600;
+  }
+  
+  if(zona === "zona este"){
+    envio = 700;
+  }
+  
+  if(zona === "zona sur"){
+    envio = 700;
+  }
+    
+}
+
+let zona = prompt("Ingrese zona de residencia (zona oeste, norte, sur, este)").toLowerCase();
+calculadoraEnvios(zona);
+alert(`el costo de envio es de $${envio}`);
+let costoFinal = envio + nuevoPrecio;
+alert(`El costo de la remera con el envio es $${costoFinal}`);
+
+
+
+
+
+
+
