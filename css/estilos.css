@@ -212,6 +212,17 @@ textarea {
   background-size: 100vw 100vh;
   background-attachment: fixed; }
 
+#correo {
+  width: 80%;
+  height: 50%;
+  text-align: center;
+  margin: auto; }
+
+#correo p {
+  font-weight: bold;
+  text-align: center;
+  color: green; }
+
 /* media querie para el form */
 @media (max-width: 500px) {
   form {
