@@ -48,16 +48,29 @@ form {
     
   }
 
-#correo {
-  width: 80%;
-  height: 50%;
-  text-align: center;
-  margin: auto;
-}
-
 #correo p {
 
   font-weight: bold;
   text-align: center;
-  color: green;
+  color: black;
+  padding: 10px;
+}
+
+.advertencia {
+
+  background-color: red;
+}
+
+.correcto {
+
+  background-color: green;
+  font-weight: bold;
+}
+#correo {
+
+  width: 350px;
+  height: 150px;
+  margin: auto;  
+  padding: 10px 20px;
+  
 }
