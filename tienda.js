@@ -78,15 +78,16 @@ alert(`el costo de envio es de $${envio}`);
 let costoFinal = envio + nuevoPrecio;
 alert(`El costo de la remera con el envio es $${costoFinal}`); */
 
-const carrito = [];
+/* const carrito = [];
 
 let boton = document.getElementById("modificadorBoton");
 boton.addEventListener("click" , respuestaClick);
 function respuestaClick() {
   carrito.push (productos[8]);
 }
-
 console.log(carrito);
+ */
 
+localStorage.setItem("productos",JSON.stringify(productos));
 
 

@@ -91,6 +91,26 @@ body {
 .disclaimer {
   display: none; }
 
+#modificadorBoton2 {
+  border: 1px solid #FFC800;
+  /*anchura, estilo y color borde*/
+  padding: 5px;
+  /*espacio alrededor texto*/
+  background-color: #FFC800;
+  /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  text-transform: uppercase;
+  /*capitalización texto*/
+  border-radius: 50px;
+  align-items: flex-end; }
+
+.mensajeBinvenida {
+  color: #F75C03;
+  margin-top: 10px; }
+
 /* orden de los iconos del footer */
 .cambioRedes {
   display: flex;
