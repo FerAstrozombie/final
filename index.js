@@ -1,6 +1,7 @@
 let usuario;
 let usuarioStorage = sessionStorage.getItem("usuario");
 
+//Validamos eñ usuario
 if (usuarioStorage) {
     let usuario = usuarioStorage;
     let padre = document.getElementById("nombre")
@@ -19,6 +20,7 @@ if (usuarioStorage) {
     padre.append(mensaje)
 }
 
+//traemos el boton de cerrar cesion y agregamos el reseteo
 let botonCesion = document.getElementById("modificadorBoton2");
 botonCesion.addEventListener("click", () => sessionStorage.clear());
 botonCesion.addEventListener("click", () => nombre.remove())

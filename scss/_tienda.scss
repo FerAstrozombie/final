@@ -13,18 +13,18 @@
 .tamañoImagen {
     width: 300px;
     padding: 30px;
-  
+
     &:hover {
       transform: scale(1.1);
       transition: 1.2s;
     }
 }
-  
+
 p {
     padding: 30px;
     color: #F75C03;
 }
-  
+
 .cambioTienda {
     display: flex;
     flex-flow: row wrap;
@@ -33,25 +33,42 @@ p {
 
 
 /* estilo de los botones */
-  
+
 #modificadorBoton {
     border: 1px solid #FFC800;
-  
+
     /*anchura, estilo y color borde*/
     padding: 10px;
-  
+
     /*espacio alrededor texto*/
     background-color: #FFC800;
-  
+
     /*color botón*/
     color: #ffffff;
-  
+
     /*color texto*/
     text-decoration: none;
-  
+
     /*decoración texto*/
     text-transform: uppercase;
-  
+
     /*capitalización texto*/
     border-radius: 50px;
+        
+}
+
+.card-title{
+    color: #F75C03;
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+#productos-contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
